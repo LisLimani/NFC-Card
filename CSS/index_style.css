@@ -6,6 +6,11 @@
     font-family: "Ubuntu", sans-serif;
 }
 
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
 .nav {
     display: flex;
     align-items: center;
@@ -46,4 +51,109 @@ img#logo {
     background-color: brown;
     border-radius: 20px;
     border: 2px solid white;
+    transition: all 0.3s ease-in-out;
+}
+
+.nav ul#nav-sign-in li#sing-in:hover {
+    background-color: #24bb74;
+}
+
+main .main {
+    background: url("../IMAGES/backround1.png");
+    height: 960px;
+    background-size: 100% auto;
+    background-attachment: fixed;
+}
+
+main .main .main-content {
+    display: grid;
+    place-items: center;
+    grid-template-rows: 1fr;
+    grid-column-gap: 20px;
+}
+
+main .main .main-content h2 {
+    color: white;
+    margin: 50px 0px 0px 30px;
+    font-size: 60px;
+}
+
+main .main .main-content p {
+    align-self: baseline;
+    margin: 70px 150px 0px 150px;
+    color: white;
+    font-size: 25px;
+    line-height: 1.5;
+    padding: 25px 30px;
+    background-color: rgba(0, 0, 0, 0.747);
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.959);
+    border-radius: 5px;
+}
+
+section#nfc-work {
+    background: url("../IMAGES/back3.png");
+    display: grid;
+    grid-template-columns: 1fr;
+    place-items: center;
+    background-size: 100% auto;
+    background-attachment: fixed;
+}
+
+section#nfc-work .nfc-work-content {
+    margin: 30px 0px 0px 30px;
+}
+
+section#nfc-work .nfc-work-content #part-1-nfc-work-content {
+    background-color: #24bb759f;
+    margin-right: 30px;
+    border-radius: 10px;
+}
+
+section#nfc-work .nfc-work-content .steps {
+    background-color: #24bb759f;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 100%;
+    margin-right: 30px;
+}
+
+section#nfc-work .nfc-work-content .steps .nfc-work-text {
+    align-self: flex-start;
+}
+
+section#nfc-work .nfc-work-content .steps img {
+    width: 40%;
+    height: auto;
+    margin: 20px 0px 20px 0px;
+    border-radius: 20px;
+    background: linear-gradient(#225252d8, #0707076c);
+}
+
+section#nfc-work .nfc-work-content .nfc-work-text {
+    color: white;
+}
+
+section#nfc-work .nfc-work-content h2 {
+    padding: 20px 0px 0px 20px;
+    font-size: 60px;
+}
+
+section#nfc-work .nfc-work-content h3 {
+    padding-top: 25px;
+    font-size: 30px;
+}
+
+section#nfc-work .nfc-work-content p {
+    align-self: baseline;
+    margin: 25px 0px 25px 0px;
+    color: white;
+    font-size: 25px;
+    line-height: 1.5;
+    padding: 25px 10px;
+    background-color: rgba(0, 0, 0, 0.514);
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.959);
+    border-radius: 5px;
 }
