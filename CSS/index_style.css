@@ -6,6 +6,18 @@
     font-family: "Ubuntu", sans-serif;
 }
 
+body {
+    background: url(../IMAGES/rfid.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+::selection {
+    background-color: #e1ad01;
+    color: black;
+}
+
 a {
     text-decoration: none;
     color: inherit;
@@ -32,7 +44,16 @@ img#logo {
     justify-content: center;
     width: 100%;
     gap: 130px;
+}
+
+.nav ul#nav-links li {
     color: white;
+    font-size: 20px;
+    transition: all 0.3s ease-in-out;
+}
+
+.nav ul#nav-links li:hover {
+    color: #e1ad01;
 }
 
 .nav ul#nav-sign-in {
@@ -60,8 +81,10 @@ img#logo {
 
 main .main {
     background: url("../IMAGES/backround1.png");
+    margin-bottom: 55px;
+    background-repeat: no-repeat;
     height: 960px;
-    background-size: 100% auto;
+    background-size: cover;
     background-attachment: fixed;
 }
 
@@ -75,14 +98,14 @@ main .main .main-content {
 main .main .main-content h2 {
     color: white;
     margin: 50px 0px 0px 30px;
-    font-size: 60px;
+    font-size: 80px;
 }
 
 main .main .main-content p {
     align-self: baseline;
     margin: 70px 150px 0px 150px;
     color: white;
-    font-size: 25px;
+    font-size: 30px;
     line-height: 1.5;
     padding: 25px 30px;
     background-color: rgba(0, 0, 0, 0.747);
@@ -91,12 +114,14 @@ main .main .main-content p {
 }
 
 section#nfc-work {
-    background: url("../IMAGES/back3.png");
+    background: url("../IMAGES/back2.png");
+    background-repeat: no-repeat;
     display: grid;
     grid-template-columns: 1fr;
     place-items: center;
-    background-size: 100% auto;
+    background-size: cover;
     background-attachment: fixed;
+    margin-bottom: 55px;
 }
 
 section#nfc-work .nfc-work-content {
@@ -129,7 +154,7 @@ section#nfc-work .nfc-work-content .steps img {
     height: auto;
     margin: 20px 0px 20px 0px;
     border-radius: 20px;
-    background: linear-gradient(#225252d8, #0707076c);
+    background: linear-gradient(#f7f7f771, #ffffff6c);
 }
 
 section#nfc-work .nfc-work-content .nfc-work-text {
@@ -138,22 +163,69 @@ section#nfc-work .nfc-work-content .nfc-work-text {
 
 section#nfc-work .nfc-work-content h2 {
     padding: 20px 0px 0px 20px;
-    font-size: 60px;
+    font-size: 80px;
 }
 
 section#nfc-work .nfc-work-content h3 {
     padding-top: 25px;
-    font-size: 30px;
+    font-size: 40px;
 }
 
 section#nfc-work .nfc-work-content p {
     align-self: baseline;
     margin: 25px 0px 25px 0px;
     color: white;
-    font-size: 25px;
+    font-size: 30px;
     line-height: 1.5;
     padding: 25px 10px;
     background-color: rgba(0, 0, 0, 0.514);
     box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.959);
     border-radius: 5px;
+}
+
+section#benefits {
+    background: url("../IMAGES/back3.png");
+    background-repeat: no-repeat;
+    display: grid;
+    background-size: cover;
+    background-attachment: fixed;
+    margin-bottom: 55px;
+}
+
+section#benefits .nfc-card-benefits {
+    margin: 30px 30px 30px 30px;
+}
+
+section#benefits .nfc-card-benefits .icons {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    border-radius: 20px;
+    margin-top: 50px;
+    padding-top: 20px;
+    backdrop-filter: blur(15px);
+    border: 7px solid white;
+}
+
+section#benefits .nfc-card-benefits .part-1-nfc-work-content {
+    color: white;
+    font-size: 60px;
+    background-color: rgba(20, 187, 109, 0.637);
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.959);
+    border-radius: 15px;
+}
+
+section#benefits .nfc-card-benefits .icons p {
+    font-size: 4em;
+    margin-bottom: 65px;
+    color: white;
+}
+
+section#benefits .nfc-card-benefits .icons .fa-solid {
+    justify-self: center;
+    font-size: 4em;
+    color: white !important;
 }
