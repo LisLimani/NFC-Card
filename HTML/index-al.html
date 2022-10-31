@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../CSS/index_style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer"
+    />
+
+    <title>Kartelat NFC</title>
+</head>
+
+<body>
+    <header>
+
+        <nav>
+
+            <div class="nav">
+
+                <a href="../HTML/index.html"> <img id="logo" src="../IMAGES/nav-logo.png"></a>
+
+                <a href="javascript:void(0);" class="mobile-nav-menu" onclick="myFunction()"><i class="fa-solid fa-ellipsis-vertical"></i></a>
+
+
+                <ul id="nav-links">
+                    <li><a href="#jump-main-content">Rreth kartelave NFC</a></li>
+                    <li><a href="#nfc-work">Si funksionojnë ato</a></li>
+                    <li><a href="#benefits">Benefitet e NFC</a></li>
+                    <li><a href="#contact">Kontakti</a></li>
+
+
+                    <ul id="nav-sign-in">
+                        <li id="sing-in"><a href="#sign-form">Regjistrohu</a></li>
+
+                    </ul>
+
+
+
+                </ul>
+                <span id="languages">
+                    <a href="../HTML/index.html" language="English" class="active">EN</a>
+                    <a href="../HTML/index-al.html" language="Albanian" class="active">AL</a>
+                    </span>
+
+
+
+
+
+
+            </div>
+
+
+        </nav>
+
+    </header>
+
+    <main>
+        <div class="main">
+            <div class="main-content" id="jump-main-content">
+                <h2>Rreth kartelave NFC</h2>
+                <p> Kartelat NFC (Near field communication) janë kartela të cilat mund të përdoren në distancë të caktuar për të krijuar një lidhje ëireless. Lidhja mund të realizohet vetëm nëse distanca është 4cm ose më pak. Kjo lidhje mund të përdoret për
+                    të shpërndarë sasi të vogla të të dhënave në formë të sigurtë të tilla si bërja e një pagese.</p>
+                <img id="gif" src="../IMAGES/nfc-demo.gif">
+            </div>
+        </div>
+    </main>
+
+    <section id="nfc-work">
+        <div class="nfc-work-content">
+
+            <div class=" nfc-work-text">
+                <div id="part-1-nfc-work-content">
+                    <h2>Si funksionon një NFC kartele?</h2>
+                    <p>Etiketat NFC funksionojnë sikur çdo etiketë RFID për të komunikuar përmes radio valëve. Të dyja pajisjet - Etiketa NFC dhe lexuesi i NFC shkëmbejnë të dhënat në format e shkëmbimit të NFC. Një etiketë NFC i dërgon radio valët për të
+                        aktivizuar antenën në pajisjen pranuese.
+                        <br><br> Pranuesi i validon të dhënat për të kompletuar shkëmbimin e informatave. Pajisjet NFC lidhen direkt për shkëmbim të të dhënave kur afrohen afër njëra-tjetrës. Kjo distancë e shkurtë e çipave NFC e bën këtë tëknologji të
+                        vyeshme për pagesa, identifikim, kontrollë të qasjes, etiketimi, ose çdo aplikim tjetër që njevojitet shëmbimi i të dhënave në distacë të afërt. Të gjithë smartphones modern kanë module NFC që lidhen me ëireless dhe pa burim të
+                        jashtëm të energjisë.
+                        <br><br> Çipat NFC janë pajisje pasive që aktivizohen nga pjisja që i lexon ato<em> (kjo ndodhë përmes induksionit magnetik)</em>. Etiketat NFC funksionojnë pa lidhje WiFi, 4G, 5G, or LTE. Kjo nënkuptonqë përdoruesit mund të paguajnë,
+                        trasferojnë të dhënat, të kenë qasje në zona të zaktuara, dhe mund të përdorin shërbimet e NFC edhe pse janë të shkyqur nga interneti.
+                    </p>
+                </div>
+
+
+
+                <div class="steps">
+                    <h2 class="nfc-work-text">Hapat</h2>
+                    <h3>Hapi 1 - Aktivizo NFC</h3>
+                    <img class="nfc-work-images" src="../IMAGES/step1.png">
+                    <h3>Hapi 2 - Prekni kartelën tuaj dhe ruaj informatat </h3>
+                    <img class="nfc-work-images" src="../IMAGES/step2.png">
+                </div>
+
+            </div>
+
+
+
+
+
+        </div>
+    </section>
+
+    <section id="benefits">
+        <div class="nfc-card-benefits">
+            <div class="part-1-nfc-work-content">
+                <h2>Përdorimi i NFC karteleve në vend të atyre prej letre ka shumë benefite</h2>
+            </div>
+            <div class="icons">
+                <i class="fa-solid fa-tarp-droplet"></i>
+                <p>E papërshkueshëme nga uji</p>
+
+
+                <i class="fa-solid fa-recycle"></i>
+                <p>E ripërdorueshme</p>
+
+
+                <i class="fa-solid fa-infinity"> </i>
+                <p>Përdorim pakufij - E rishkrueshme</p>
+
+
+                <i class="fa-solid fa-shapes">   </i>
+                <p>Funksionon me çdo pajisje që ka NFC</p>
+
+            </div>
+
+            <div class="nfc-people">
+                <img src="../IMAGES/mobile-nfc.png">
+            </div>
+
+        </div>
+    </section>
+
+
+    <section id="sign-form">
+
+        <div class="form">
+
+            <form method="post" action="#">
+                <h2>Regjistrohu</h2>
+
+                <input type="text" name="name" placeholder="Emri" required />
+                <input type="email" name="email" placeholder="Email" required/>
+                <input type="tel" name="phone" placeholder="Numri i telefonit" required />
+                <button id="btn" type="submit">Dërgo</button>
+
+            </form>
+        </div>
+    </section>
+
+
+    <footer id="contact">
+        <div class="footer">
+            <div class="social-media">
+                <h3>Na gjej në</h3>
+                <ul>
+                    <a href="https://www.instagram.com/"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://www.facebook.com/"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="https://www.linkedin.com/"> <i class="fa-brands fa-linkedin"></i></a>
+                </ul>
+
+            </div>
+
+            <p> <strong>&copy; 2022.Të gjitha të drejtat e rezervuara</strong></p>
+
+        </div>
+    </footer>
+</body>
+<script>
+    function myFunction() {
+        var x = document.getElementById("nav-links");
+        if (x.style.display === "block") {
+            x.style.display = "none";
+        } else {
+            x.style.display = "block";
+        }
+    }
+</script>
+
+</html>
