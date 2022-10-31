@@ -45,15 +45,17 @@ img#logo {
     list-style-type: none;
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: flex-end;
     width: 100%;
-    gap: 130px;
+    gap: 20px;
 }
 
 .nav ul#nav-links li {
     color: white;
     font-size: 20px;
+    font-weight: bolder;
     transition: all 0.3s ease-in-out;
+    text-transform: uppercase;
 }
 
 .nav ul#nav-links li:hover {
@@ -73,7 +75,6 @@ img#logo {
     padding: 10px 20px;
     color: white;
     list-style-type: none;
-    background-color: brown;
     border-radius: 20px;
     border: 2px solid white;
     transition: all 0.3s ease-in-out;
@@ -241,9 +242,9 @@ section#benefits .nfc-people {
 
 section#benefits .nfc-card-benefits .nfc-people img {
     border-radius: 55px;
-    z-index: 2;
+    z-index: 1;
     margin-top: -800px;
-    width: 750px;
+    width: 550px;
     height: auto;
 }
 
@@ -351,7 +352,7 @@ footer#contact .social-media ul .fa-brands {
     color: rgb(0, 0, 0) !important;
 }
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 600px) {
     @import url("https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap");
     * {
         box-sizing: border-box;
@@ -539,21 +540,21 @@ footer#contact .social-media ul .fa-brands {
     }
     section#benefits .nfc-card-benefits .icons .fa-solid {
         justify-self: center;
-        font-size: 2em;
+        font-size: 1em;
         color: white !important;
     }
     section#benefits .nfc-people {
         display: flex;
-        justify-content: flex-end;
+        margin-top: 100px;
+        justify-content: center;
         align-items: flex-start;
         align-content: stretch;
     }
     section#benefits .nfc-card-benefits .nfc-people img {
         justify-self: center;
+        align-self: flex-end;
         border-radius: 55px;
-        margin-top: 5%;
         width: 100%;
-        height: auto;
     }
     section#sign-form {
         background-repeat: no-repeat;
@@ -641,5 +642,28 @@ footer#contact .social-media ul .fa-brands {
     footer#contact .social-media ul .fa-brands {
         font-size: 1em;
         color: rgb(0, 0, 0) !important;
+    }
+}
+
+@media screen and (max-width: 1500px) {
+    section#benefits .nfc-card-benefits .nfc-people img {
+        border-radius: 55px;
+        z-index: 1;
+        margin-top: -700px;
+        width: 300px;
+        height: auto;
+    }
+    section#benefits .nfc-card-benefits .icons p {
+        font-size: 3em;
+        margin-bottom: 65px;
+        color: white;
+    }
+    section#benefits .nfc-card-benefits .icons .fa-solid {
+        justify-self: center;
+        font-size: 3em;
+        color: white !important;
+    }
+    section#sign-form .form form {
+        margin: 0px 0px;
     }
 }
