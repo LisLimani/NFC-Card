@@ -16,7 +16,7 @@
     <header>
         <nav>
             <div class="nav">
-                <img id="logo" src="../IMAGES/nav-logo.png">
+                <a href="../HTML/index.html"> <img id="logo" src="../IMAGES/nav-logo.png"></a>
                 <ul id="nav-links">
                     <li><a href="#jump-main-content">About NFC cards</a></li>
                     <li><a href="#nfc-work">How do they work</a></li>
@@ -24,7 +24,7 @@
                     <li><a href="#contact">Contact</a></li>
                 </ul>
                 <ul id="nav-sign-in">
-                    <li id="sing-in"><a href="">Sign in or Sign up</a></li>
+                    <li id="sing-in"><a href="#sign-form">Sign in or Sign up</a></li>
                 </ul>
 
 
@@ -42,7 +42,7 @@
                 <h2>About NFC Cards</h2>
                 <p> Near field communication (NFC) cards are cards that can be used at a short-range to create a wireless connection. The connection can only be made if there is a distance of 4cm or less. This connection can be used to share small amounts
                     of data in a secure manner, such as making a payment.</p>
-                <img src="../IMAGES/nfc-demo.gif">
+                <img id="gif" src="../IMAGES/nfc-demo.gif">
             </div>
         </div>
     </main>
@@ -53,8 +53,12 @@
             <div class=" nfc-work-text">
                 <div id="part-1-nfc-work-content">
                     <h2>How does an NFC card work?</h2>
-                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. In doloribus eaque blanditiis laborum. Explicabo, cupiditate! Laboriosam eveniet voluptates assumenda itaque ipsum dolorem labore sunt in corrupti, suscipit accusamus molestiae
-                        quaerat.
+                    <p>NFC tags work like any other RFID tag to communicate over radio waves. Two devices — the NFC tag and the NFC reader exchange information in NFC data exchange format. An NFC tag sends radio waves to activate the antenna in a receiving
+                        device. The recipient validates the information to complete information exchange.
+                        <br> <br>NFC devices connect instantly for data exchange when brought close together. The small range of NFC chips makes this technology useful for payments, identification, access control, ticketing, or any other application requiring
+                        near-field data exchange. All modern smartphones have NFC modules that connect wirelessly and without an external power source. NFC chips are passive devices that are powered by a device that reads them at the moment (this happens
+                        through magnetic induction).
+                        <br><br> NFC tags can work without WiFi, 4G, 5G, or LTE connectivity. This means users can pay, transfer data, access areas, and use NFC-enabled services even while they’re disconnected from the internet.
                     </p>
                 </div>
 
@@ -76,35 +80,69 @@
 
         </div>
     </section>
+
     <section id="benefits">
         <div class="nfc-card-benefits">
-            <h2>Using an NFC card instead of paper ones gives us lots of benefits</h2>
-            <div class="icons">
-                <i class="fa-solid fa-tarp-droplet"><p>Waterproof</p></i>
-                <i class="fa-solid fa-recycle"><p>Reuseable</p></i>
-                <i class="fa-solid fa-infinity"><p>Unlimited use - Rewritable</p></i>
-                <i class="fa-solid fa-shapes"><p>Works with every NFC enabled device</p></i>
+            <div class="part-1-nfc-work-content">
+                <h2>Using an NFC card instead of paper ones has lots of benefits</h2>
             </div>
+            <div class="icons">
+                <i class="fa-solid fa-tarp-droplet"></i>
+                <p>Waterproof</p>
+
+
+                <i class="fa-solid fa-recycle"></i>
+                <p>Reuseable</p>
+
+
+                <i class="fa-solid fa-infinity"> </i>
+                <p>Unlimited use - Rewritable</p>
+
+
+                <i class="fa-solid fa-shapes">   </i>
+                <p>Works with every NFC enabled device</p>
+
+            </div>
+
+            <div class="nfc-people">
+                <img src="../IMAGES/mobile-nfc.png">
+            </div>
+
         </div>
     </section>
-    <section id="contact">
-        <form>
 
-        </form>
+
+    <section id="sign-form">
+
+        <div class="form">
+
+            <form method="post" action="#">
+                <h2>Register</h2>
+
+                <input type="text" name="name" placeholder="Name" required />
+                <input type="email" name="email" placeholder="Email" required/>
+                <input type="tel" name="phone" placeholder="Phone Number" required />
+                <button id="btn" type="submit">Submit</button>
+
+            </form>
+        </div>
     </section>
 
 
-    <footer>
+    <footer id="contact">
         <div class="footer">
             <div class="social-media">
-                <h3>Social Media</h3>
+                <h3>Find us in</h3>
                 <ul>
-                    <i class="fa-brands fa-instagram"></i>
-                    <i class="fa-brands fa-facebook"></i>
-                    <i class="fa-brands fa-linkedin"></i>
+                    <a href="https://www.instagram.com/"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://www.facebook.com/"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="https://www.linkedin.com/"> <i class="fa-brands fa-linkedin"></i></a>
                 </ul>
+
             </div>
-            Copyright 2022.All Rights Reserved.
+
+            <p> <strong>&copy; 2022.All Rights Reserved.</strong></p>
+
         </div>
     </footer>
 </body>
