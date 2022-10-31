@@ -483,6 +483,7 @@ footer#contact .social-media ul .fa-brands {
         display: grid;
         height: auto;
         background-size: cover;
+        background-position: center;
         background-attachment: fixed;
     }
     section#benefits .nfc-card-benefits {
