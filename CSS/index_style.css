@@ -13,6 +13,10 @@ body {
     background-attachment: fixed;
 }
 
+.mobile-nav-menu {
+    display: none;
+}
+
 ::selection {
     background-color: #e1ad01;
     color: black;
@@ -369,15 +373,33 @@ footer#contact .social-media ul .fa-brands {
         text-decoration: none;
         color: inherit;
     }
+    .mobile-nav-menu {
+        display: block;
+    }
+    .mobile-nav-menu i {
+        color: #ffffff;
+        font-size: 2em;
+        position: absolute;
+        top: 35px;
+        right: 25px;
+    }
     .nav {
         display: flex;
         align-items: center;
-        justify-content: flex-start;
+        justify-content: space-between;
         list-style-type: none;
-        background-color: black;
+        background-color: rgb(0, 0, 0);
+        overflow: hidden;
+        position: relative;
+    }
+    .nav a {
+        padding: 14px 16px;
+        text-decoration: none;
+        font-size: 17px;
+        display: block;
     }
     nav img#logo {
-        width: 60px;
+        width: 80px;
         height: auto;
     }
     .nav ul#nav-links {
@@ -400,7 +422,7 @@ footer#contact .social-media ul .fa-brands {
         width: 100%;
     }
     main #gif {
-        width: 125%;
+        width: 100%;
         height: auto;
     }
     main .main .main-content h2 {
@@ -538,6 +560,7 @@ footer#contact .social-media ul .fa-brands {
         background-size: cover;
         background-attachment: fixed;
         margin-top: 55px;
+        height: 530px;
     }
     section#sign-form form h2 {
         color: rgb(0, 0, 0);
