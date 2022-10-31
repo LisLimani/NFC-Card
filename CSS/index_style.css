@@ -27,6 +27,27 @@ a {
     color: inherit;
 }
 
+span#languages {
+    display: flex;
+    justify-content: flex-end;
+    padding-left: 1%;
+    align-items: center;
+    gap: 10px;
+}
+
+span#languages a {
+    padding: 2px 2px;
+    border-radius: 3px;
+    color: black;
+    font-weight: bold;
+    background-color: #ffffff;
+    transition: all 0.3s ease-in-out;
+}
+
+span#languages a:hover {
+    background-color: #24bb74;
+}
+
 .nav {
     display: flex;
     align-items: center;
@@ -374,6 +395,13 @@ footer#contact .social-media ul .fa-brands {
         text-decoration: none;
         color: inherit;
     }
+    span#languages {
+        display: flex;
+        justify-content: flex-end;
+        padding-left: 1%;
+        align-items: center;
+        gap: 10px;
+    }
     .mobile-nav-menu {
         display: block;
     }
@@ -646,6 +674,26 @@ footer#contact .social-media ul .fa-brands {
 }
 
 @media screen and (max-width: 1000px) {
+    a {
+        text-decoration: none;
+        color: inherit;
+    }
+    .mobile-nav-menu {
+        display: block;
+    }
+    .mobile-nav-menu i {
+        color: #ffffff;
+        font-size: 2em;
+        position: absolute;
+        top: 35px;
+        right: 25px;
+    }
+    .nav ul#nav-links {
+        display: none;
+    }
+    .nav ul#nav-sign-in {
+        display: none;
+    }
     section#benefits .nfc-card-benefits .nfc-people img {
         border-radius: 55px;
         z-index: 1;
