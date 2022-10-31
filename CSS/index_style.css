@@ -694,6 +694,26 @@ footer#contact .social-media ul .fa-brands {
     .nav ul#nav-sign-in {
         display: none;
     }
+    section#benefits .nfc-card-benefits .part-1-nfc-work-content {
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+        padding: 2px 5px;
+        justify-content: center;
+        color: rgb(255, 255, 255);
+        font-size: 25px;
+    }
+    section#benefits .nfc-card-benefits .icons p {
+        font-size: 15px !important;
+        justify-self: center;
+        margin-bottom: 65px;
+        color: white;
+    }
+    section#benefits .nfc-card-benefits .icons .fa-solid {
+        justify-self: center;
+        font-size: 1em;
+        color: white !important;
+    }
     section#benefits .nfc-card-benefits .nfc-people img {
         border-radius: 55px;
         z-index: 1;
