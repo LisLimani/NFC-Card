@@ -80,17 +80,16 @@ img#logo {
 }
 
 .nav ul#nav-links li:hover {
-    color: #e1ad01;
+    color: #ffffff;
 }
 
-.nav ul#nav-sign-in {
-    width: 200px;
+.nav ul li#nav-sign-in {
     height: auto;
 }
 
-.nav ul#nav-sign-in li#sing-in {
+.nav ul li#sing-in {
     display: flex;
-    width: 100%;
+    width: 15%;
     align-items: center;
     justify-content: center;
     padding: 10px 20px;
@@ -101,7 +100,7 @@ img#logo {
     transition: all 0.3s ease-in-out;
 }
 
-.nav ul#nav-sign-in li#sing-in:hover {
+.nav ul li#sing-in:hover {
     background-color: #24bb74;
 }
 
